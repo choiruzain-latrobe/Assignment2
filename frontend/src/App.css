@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact:hover {
+    background-color: #E0E0E0;
+}
+.contact > .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact > .title > h3 {
+    margin: 0px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+.green:hover {
+    background-color: #46a049;
+}
+.red {
+    background-color: #f44336;
+}
+.red:hover {
+    background-color: #da190b;
+}
+
+.page {
+    height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.page > p {
+    color: gray;
+}
+
+.contact-list {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contact-list > h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.new-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-contact > input {
+    margin-bottom: 8px;
+}
+
+.phone-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-list > table {
+    margin-top: 10px;
+}
+.phone-list > table > thead > tr > th {
+    padding: 5px;
+}
+.phone-list > table > tbody > tr > td {
+    padding: 5px;
+}
+
+.phone-list > table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.phone-list > table td, .phone-list > table th {
+    border: 1px solid #b1b1b1;
+    padding: 8px;
+}
+
+.phone-list > table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.new-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.new-phone > input {
+    margin-right: 5px;
+    width: 100%;
+}
+
+.stats > p {
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+}
+.stats > p:hover {
+    color: black;
+}
+
+.stats-container {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    text-align: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
