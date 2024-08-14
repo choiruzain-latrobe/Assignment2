@@ -1,10 +1,15 @@
 # README.md
 
+IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
+
+Please include your shared repository link here:
+
+Example:
+Choiru's shared repository: https://github.com/choiruzain-latrobe/Assignment2.git
+
+
+Make sure for **your case it is in Private**
 ## Access Database
-
-Important information
-
-
 1 **Plsql Cheat Sheet:**
 You can refer to the PostgreSQL cheat sheet [here](https://www.postgresqltutorial.com/postgresql-cheat-sheet/).
 
