@@ -1,4 +1,4 @@
-### Marking Rubric Option A
+### Marking Rubric CSE5006-T4
 
 ---
 
@@ -61,25 +61,24 @@
 
 ---
 
-### **Task 4 – Expanding the Existing Tables (e.g., Company)** (20 Marks)
-1. **Table Creation** (10 Marks)
-    - **10 Marks**: `companies` table is created with attributes `company_id`, `company_name`, `company_address`, and `contact_id` with correct relationships.
-    - **0-9 Marks**: Partial or incorrect table creation.
+### **Task 4 – Expanding the Existing Tables (e.g., Company)** (30 Marks)
+1. **Table Creation** (18 Marks)
+    - **18 Marks**: `companies` table is created with attributes `company_id`, `company_name`, `company_address`, and `contact_id` with correct relationships.
+    - **0-8 Marks**: Partial or incorrect table creation.
 
-2. **API Creation** (10 Marks)
-    - **10 Marks**: Four APIs for managing records in the `companies` table are correctly implemented.
-    - **2.5 Marks Each**: Each API is implemented correctly.
-    - **0-2 Marks**: Partial or incorrect API implementation.
+2. **API Creation** (12 Marks)
+    - **12 Marks**: Four APIs for managing records in the `companies` table are correctly implemented.
+    - **3 Marks Each**: Each API is implemented correctly.
+    - **0-2 Marks**: Partial or incorrect API implementation.x
 
 3. **Deductions**
     - Up to half mark if the documentation does not reflect or related to your task
     - Up to full mark for each point without documentation
 ---
 
-### **Task 5 – Front-End for Companies Table** (10 Marks)
-1. **10 Marks**: A fully functional front-end interface is created for managing the `companies` table, including add, edit, delete, and update operations. Changes are persisted in the database, and the process is documented with screenshots included in the `Readme.md` file.
-2. **0-9 Marks**: Partial or incomplete front-end functionality, missing documentation, or improper data persistence.
-
+### **Task 5 – Front-End for Companies Table** (30 Marks)
+1. **30 Marks**: A fully functional front-end interface is created for managing the `companies` table, including add, edit, delete, and update operations. Changes are persisted in the database, and the process is documented with screenshots included in the `Readme.md` file.
+2. **0-20 Marks**: Partial or incomplete front-end functionality, missing documentation, or improper data persistence.
 3. **Deductions**
    - Up to half mark if the documentation does not reflect or related to your task
    - Up to full mark for each point without documentation
@@ -87,5 +86,5 @@
 ### **Other Deductions**
 1. **node_modules**: A fully functional front-end interface is included in the submission: **5 marks**
 2. **submission name does not follow the format**: FirstName-studentID.zip (e.g. Mario-studentID.zip): **5 marks**
-3. **did not share** the git repository since week 3/5 to your lecturer: **5 marks**
+3. **did not share** the git repository since week 4 to your lecturer: **5 marks**
 4. **did not mention the repository link** in your readme.md file: **5 marks**
