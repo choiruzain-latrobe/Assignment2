@@ -5,10 +5,10 @@ module.exports = (sequelize, Sequelize) => {
             autoIncrement: true,
             primaryKey: true,
         },
-        name: {
+        phone_type: {
             type: Sequelize.STRING
         },
-        number: {
+        phone_number: {
             type: Sequelize.STRING
         },
         contactId: {
@@ -19,6 +19,6 @@ module.exports = (sequelize, Sequelize) => {
             }
         }
     });
-  
+
     return Phone;
 };
