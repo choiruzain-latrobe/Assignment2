@@ -6,7 +6,7 @@ Please include your shared repository link here:
 
 Example:
 Choiru's shared repository: https://github.com/choiruzain-latrobe/Assignment2.git
-
+https://github.com/BinjuGit/A2-Binju-21914721/blob/main/Screenshot%202024-09-04%20204258.png
 
 Make sure for **your case it is in Private**
 ## Access Database
