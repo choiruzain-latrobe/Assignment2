@@ -5,9 +5,9 @@ const Op = db.Sequelize.Op;
 // Create phone
 exports.create = (req, res) => {
     const phone = {
-        phone_type: req.body.phone_type,
-        phone_number: req.body.phone_number,
-        contactId: parseInt(req.params.contact_id)
+        name: req.body.name,
+        number: req.body.number,
+        contactId: parseInt(req.params.contactId)
     };
 
     Phones.create(phone)
@@ -17,7 +17,7 @@ exports.create = (req, res) => {
         .catch(err => {
             res.status(500).send({
                 message:
-                err.message || "Some error occurred"
+                    err.message || "Some error occurred"
             });
         });
 };
@@ -65,22 +65,22 @@ exports.update = (req, res) => {
     Phones.update(req.body, {
         where: { id: id, contactId: req.params.contactId }
     })
-    .then(num => {
-        if (num == 1) {
-            res.send({
-                message: "Phone was updated successfully."
+        .then(num => {
+            if (num == 1) {
+                res.send({
+                    message: "Phone was updated successfully."
+                });
+            } else {
+                res.send({
+                    message: `Cannot update Phone`
+                });
+            }
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: "Error updating Phone with id=" + id
             });
-        } else {
-            res.send({
-                message: `Cannot update Phone`
-            });
-        }
-    })
-    .catch(err => {
-        res.status(500).send({
-            message: "Error updating Phone with id=" + id
         });
-    });
 };
 
 // Delete one phone by id
@@ -90,20 +90,20 @@ exports.delete = (req, res) => {
     Phones.destroy({
         where: { id: id, contactId: req.params.contactId }
     })
-    .then(num => {
-        if (num == 1) {
-            res.send({
-                message: "Phone was deleted successfully!"
+        .then(num => {
+            if (num == 1) {
+                res.send({
+                    message: "Phone was deleted successfully!"
+                });
+            } else {
+                res.send({
+                    message: `Cannot delete Phone`
+                });
+            }
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: "Could not delete Phone with id=" + id
             });
-        } else {
-            res.send({
-                message: `Cannot delete Phone`
-            });
-        }
-    })
-    .catch(err => {
-        res.status(500).send({
-            message: "Could not delete Phone with id=" + id
         });
-    });
 };
