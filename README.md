@@ -136,3 +136,7 @@ http get http://localhost/api/contacts/1/phones
 ```
 
 ### Phone API
+
+## Task 1
+### a) Change name from "Delete" to "Delete Contact"
+--to do insert image
